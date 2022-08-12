@@ -17,10 +17,14 @@ const Footer: React.FC = () => {
         </li>
       </ul>
 
-      <ul className={styles.details}>
+      {/* <ul className={styles.details}>
         <li>Get Involved</li>
-        <li><a href="https://t.me/+G5A-M1M4ePFkMzhk" className={styles.link}>Telegram</a></li>
-      </ul>
+        <li>
+          <a href="https://t.me/+G5A-M1M4ePFkMzhk" className={styles.link}>
+            Telegram
+          </a>
+        </li>
+      </ul> */}
     </footer>
   );
 };
