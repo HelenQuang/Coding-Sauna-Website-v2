@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+  --white: #fffdf3;
+  --green: #0e4505;
+  --yellow: #ffd500;
+  --brown: #473c38;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white);
+  color: var(--brown);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 7.5rem;
+  padding-top: 4rem;
+  padding-left: 7.5rem;
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: var(--green);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 90rem) {
+  h1 {
+    font-size: 6rem;
+    padding-top: 2rem;
+    padding-left: 3.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 64rem) {
+  h1 {
+    font-size: 5.5rem;
+    padding-top: 2rem;
+    padding-left: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  h1 {
+    font-size: 4.5rem;
+    padding-top: 1.8rem;
+    padding-left: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 27rem) {
+  h1 {
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 24rem) {
+  h1 {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}

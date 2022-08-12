@@ -1,0 +1,81 @@
+footer {
+  background-color: var(--white);
+  color: var(--green);
+  padding-top: 1rem;
+  padding-left: 7.5rem;
+  padding-bottom: 2.1rem;
+  display: flex;
+  gap: 13rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.details {
+  list-style: none;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.details li {
+  margin-bottom: 1rem;
+}
+
+.details > :first-child {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.details > :last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 48rem) {
+  .details {
+    font-size: 0.8rem;
+  }
+
+  .details li {
+    margin-bottom: 0.8rem;
+  }
+
+  .details > :first-child {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 27rem) {
+  footer {
+    padding-left: 3rem;
+    gap: 5rem;
+  }
+  .details {
+    font-size: 0.8rem;
+  }
+
+  .details li {
+    margin-bottom: 0.8rem;
+  }
+
+  .details > :first-child {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 24rem) {
+  footer {
+    padding-left: 2rem;
+  }
+
+  .details {
+    font-size: 0.7rem;
+  }
+
+  .details li {
+    margin-bottom: 0.5rem;
+  }
+
+  .details > :first-child {
+    font-size: 1rem;
+  }
+}
